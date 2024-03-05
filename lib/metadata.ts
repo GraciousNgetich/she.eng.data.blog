@@ -8,16 +8,17 @@ export const BASE_URL =
   `http://localhost:${process.env.PORT || 3000}`;
 
 export const defaultAuthor: AuthorType = {
-  name: "Amy Shields",
-  handle: "@amyshieldsfake",
+  name: "Gracious Ngetich",
+  handle: "@GraciousNgetich",
   socialProfiles,
-  email: "definitelyfake@nevermind.com",
-  website: "https://nextjs.org",
-  jobTitle: "Frontend Engineer & UI Designer",
-  company: "Unicorns & Co.",
+  email: "gracious.ngetich@protonmail.com",
+  website: "sheengineersdata.org",
+  jobTitle: "Data Engineer & Technical Writer",
+  // company: "She Engineers Data",
+
   availableForWork: true,
   location: {
-    city: "Los Angeles",
+    city: "Kenya, Remote",
     media: "/losangeles.jpg",
   },
 };

@@ -44,23 +44,7 @@ export function Navigation() {
 
   return (
     <>
-      {siteMetadata?.activeAnnouncement && (
-        <AnnouncementBar
-          buttonText={siteMetadata.announcement.buttonText as string}
-          link={siteMetadata.announcement.link as string}
-        >
-          <Rocket className="mr-2 h-5 w-5" />
-          <strong className="mr-1">Launching on DevHunt!</strong> If you like this template, please support me by
-          upvoting on DevHunt from Aug 21-27.
-        </AnnouncementBar>
-      )}
-      <header
-        className={cn(
-          "fixed inset-x-0 -bottom-32 z-20 mx-auto mb-4 px-4 transition-all duration-1000 animate-out sm:top-0 sm:h-16 sm:px-0 sm:transition-none",
-          visible && "bottom-0 animate-in",
-          siteMetadata.activeAnnouncement && "sm:top-28 md:top-20 lg:top-12"
-        )}
-      >
+      <header className="fixed bottom-0 left-0 z-20 mx-auto mb-4 w-full px-4 delay-500 animate-in animate-out sm:static sm:z-auto sm:mb-0 sm:mt-4 sm:h-16 sm:max-w-6xl sm:transition-none sm:delay-0 lg:px-0 ">
         {defaultAuthor.availableForWork && (
           <div className="mx-auto mb-2 text-center sm:hidden">
             <Link href="/now" aria-label="Go to Now page">

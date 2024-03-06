@@ -14,17 +14,17 @@ export const defaultAuthor: AuthorType = {
   email: "gracious.ngetich@protonmail.com",
   website: "sheengineersdata.org",
   jobTitle: "Data Engineer & Technical Writer",
-  // company: "She Engineers Data",
+  company: "Founder @ She Engineers Data",
 
   availableForWork: true,
   location: {
-    city: "Kenya, Remote",
-    media: "/losangeles.jpg",
+    city: "Kenya",
+    media: "/nairobi.jpg",
   },
 };
 
-const defaultTitle = `${defaultAuthor.name}'s Blog`;
-const defaultDescription = `I'm ${defaultAuthor.name}. Building hackin’ cool digital products around the world 🌴.`;
+const defaultTitle = `She Engineers Data`;
+const defaultDescription = `I'm ${defaultAuthor.name}. ENGINEERING a future where WOMEN thrive in the world of DATA`;
 
 const siteMetadata: SiteMetaData = {
   title: {
@@ -37,11 +37,6 @@ const siteMetadata: SiteMetaData = {
   newsletterUrl: "https://developreneur.davidlevai.com",
   analyticsProvider: "umami",
   defaultTheme: "system",
-  activeAnnouncement: true,
-  announcement: {
-    buttonText: "Support on DevHunt →",
-    link: "https://devhunt.org/tool/modern-developer-blog-template-digital-garden-starter",
-  },
   postsPerPage: 10,
   postsOnHomePage: 8,
   projectsOnHomePage: 4,

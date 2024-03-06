@@ -31,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
     },
     {
-      url: `${BASE_URL}/uses`,
+      url: `${BASE_URL}/techStack`,
       lastModified: now,
     },
     {

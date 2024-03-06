@@ -28,6 +28,11 @@ const content: ContentNavItem[] = [
     href: "/teaching",
     description: "I teach others. Sometimes for free, sometimes for money.",
   },
+  {
+    title: "Projects",
+    href: "/projects",
+    description: "My open source projects",
+  },
 ];
 
 export const navigationLinks: NavItem[] = [
@@ -36,15 +41,15 @@ export const navigationLinks: NavItem[] = [
     content,
   },
   {
-    title: "Projects",
-    href: "/projects",
+    title: "TechStack",
+    href: "/techStack",
   },
   {
-    title: "Uses",
-    href: "/uses",
+    title: "About",
+    href: "/about",
   },
   {
-    title: "Now",
-    href: "/now",
+    title: "Community",
+    href: "/community",
   },
 ];

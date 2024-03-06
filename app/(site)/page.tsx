@@ -34,8 +34,8 @@ export default async function Home() {
   return (
     <div className="pb-10">
       <HeroSimple
-        title="Building hackin’ cool digital products around the world 🌴."
-        subtitle="I'm Amy. Frontend engineer writing code and blog on the internet."
+        title="ENGINEERING a future where WOMEN thrive in the world of DATA"
+        subtitle="I'm Gracious. Data engineer writing code and blog on the internet."
       />
       <div className="container mt-12 max-w-6xl">
         <div className="grid grid-cols-1 place-items-start justify-between gap-12 lg:grid-cols-3">
@@ -71,7 +71,7 @@ export default async function Home() {
           <div className="grid grid-cols-1 place-items-start justify-between gap-12 lg:grid-cols-3">
             <div className="col-span-1 mx-auto flex flex-col items-center justify-center">
               <Image
-                src="/avatar-home.png"
+                src="/avatar.png"
                 alt={defaultAuthor.name}
                 width={400}
                 height={498}

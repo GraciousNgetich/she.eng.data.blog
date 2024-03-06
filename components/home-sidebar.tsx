@@ -14,7 +14,7 @@ type CardProps = React.ComponentProps<typeof Card>;
 export function Sidebar({ className, ...props }: CardProps) {
   return (
     <>
-      <Card className={cn("mb-4", className)} {...props}>
+      <Card className={cn("mb-4 pb-4", className)} {...props}>
         <CardHeader>
           <CardTitle>Where am I currently?</CardTitle>
         </CardHeader>
@@ -24,19 +24,13 @@ export function Sidebar({ className, ...props }: CardProps) {
             <p className="ml-2 mr-auto text-sm font-medium leading-none">{defaultAuthor.location.city}</p>
             <Image
               src={defaultAuthor.location.media}
-              alt="Los Angeles"
+              alt="Kenya"
               width={56}
               height={56}
               className="h-16 w-16 rounded-md object-cover"
             />
           </div>
         </CardContent>
-        <Separator />
-        <CardFooter>
-          <Button variant="ghost" className="w-full" disabled>
-            Digital Nomad diaries <ArrowRight className="mr-2 h-4 w-4" />
-          </Button>
-        </CardFooter>
       </Card>
       <Card className={cn(className)} {...props}>
         <CardHeader>
